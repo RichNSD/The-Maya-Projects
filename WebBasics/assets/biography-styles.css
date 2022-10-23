@@ -1,0 +1,34 @@
+/* Font Import (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+	/* I picked 'Albert Sans' for the example */
+
+body {
+	background-color: hsl(205, 100%, 15%);
+	background-size: cover;
+	font-family: 'Albert Sans', sans-serif;
+} body h1,h2,h3 {
+	font-family: inherit; /* pulls the parent value */
+	font-weight: ; /* 100-900 depending on your font */
+}
+
+.container {
+	background-color: hsl(205, 80%, 25%);
+	background-size: ;
+	background-position: ;
+	margin: 4%; /* Values in: _px | _rem | _em | _% */
+	padding: 15px; /* Ask me about 'padding' vs 'margin' */
+	font-family: ;
+	color: hsl(0, 0%, 90%);
+}
+.container p {
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 500; 
+	color: inherit;
+}
+
+.picFrame {
+	position: center;
+	border-radius: 15px;
+	box-shadow: 3px 4px 6px #000 inset;
+}
